@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimatium Tap 2 Earn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        button {
+            padding: 15px 25px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #005f73;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to Ultimatium Tap 2 Earn</h1>
+    <p>Earn rewards by simply tapping the button below!</p>
+    <button onclick="earn()">Tap to Earn</button>
+
+    <p id="status"></p>
+
+    <script>
+        function earn() {
+            document.getElementById('status').innerHTML = "You have earned 10 Ultimatium tokens!";
+        }
+    </script>
+
+</body>
+</html>
